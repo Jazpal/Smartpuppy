@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap");
+:root {
+  --primary-color: #ff4c68;
+  --highlighter: 2px solid red;
+  --color: white;
+}
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* title section */
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 0 4rem;
+}
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.nal-link {
+  font-size: 1.2rem;
+}
+
+#title button {
+  margin: 5% 3% 5%;
+}
+
+#title img {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* feature */
+#feature {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#feature i {
+  color: #ff4c68;
+  margin-bottom: 10px;
+}
+
+#feature p {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10%;
+}
+
+/* press */
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+press img {
+  width: 15%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+}
+
+#pricing .card {
+  height: 400px;
+  position: relative;
+  margin-top: 1rem;
+}
+
+#pricing .card button {
+  position: absolute;
+  left: 35px;
+  bottom: 13px;
+  width: 80%;
+}
+
+#pricing > h2 {
+  margin: 1rem 0;
+}
+
+#pricing > p {
+  font-size: 1.2rem;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+#cta button {
+  margin: 2% 1rem 1rem 2%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  padding: 0 1rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+footer ul li a {
+  color: black;
+}
+
+@media screen and(max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  #title img {
+    transform: rotate(0);
+    width: 40%;
+  }
+
+  .pricing-last-button {
+    width: 100px;
+    left: 70px !important;
+  }
+}
